@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angelus Aaron Cruz | Personal Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Angelus Aaron Cruz</h1>
+      <p>Personal Web Profile</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Profile Photo" class="profile-pic" />
+
+      <p>
+        Hello! My name is Aaron Cruz. I am a graduate of the
+        <strong>Bachelor of Multimedia Studies</strong> program at the
+        <strong>University of the Philippines Open University</strong>.
+      </p>
+
+      <p>
+        I am currently pursuing a
+        <strong>Diploma in Computer Science</strong> to further strengthen my
+        knowledge in programming and computer systems.
+      </p>
+
+      <p>
+        I live in <strong>Las Piñas City</strong> and work as a
+        <strong>government employee</strong>. I bike to work daily for exercise
+        and a better commute.
+      </p>
+
+      <div class="fun-fact-box">
+        <button onclick="showFunFact()">Show Fun Fact</button>
+        <p id="funFact" class="fun-fact"></p>
+      </div>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML, CSS, and JavaScript</li>
+        <li>PHP and Laravel</li>
+        <li>MySQL database design</li>
+        <li>Building simple web applications</li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies & Interests</h2>
+      <div class="hobby-grid">
+        <div class="hobby-card">
+          <img src="images/guitar.jpg" alt="A Squier Stratocaster guitar" />
+          <h3>Playing Guitar</h3>
+          <p>
+            I enjoy playing my
+            <strong>Squier Classic Vibe '70s Stratocaster</strong> through an
+            <strong>Orange Crush 35RT amp</strong>.
+          </p>
+        </div>
+
+        <div class="hobby-card">
+          <img
+            src="images/hollow-knight.webp"
+            alt="Hollow Knight game artwork"
+          />
+          <h3>Video Games</h3>
+          <p>
+            I enjoy challenging Metroidvanias like
+            <strong>Hollow Knight</strong> on my <strong>PlayStation 5</strong>.
+          </p>
+        </div>
+
+        <div class="hobby-card">
+          <img
+            src="images/watercolor.webp"
+            alt="Watercolor painting supplies and artwork"
+          />
+          <h3>Drawing & Watercolor</h3>
+          <p>
+            Dabbling in watercolor is a great way to express creativity outside
+            of technical work.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:angelus.aaron@email.com">angelus.aaron@email.com</a>
+      </p>
+      <p>
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> |
+        <a href="#">LinkedIn</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2026 Aaron Cruz</p>
+    </footer>
+
+    <button id="topBtn" onclick="scrollToTop()">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
